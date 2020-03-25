@@ -103,11 +103,13 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\add.cpp" />
-    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\moduleA\sample1.cpp" />
+    <ClCompile Include="src\application.cpp" />
+    <ClCompile Include="src\moduleA\sample2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\add.h" />
+    <ClInclude Include="include\moduleA\sample1.h" />
+    <ClInclude Include="include\moduleA\sample2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
