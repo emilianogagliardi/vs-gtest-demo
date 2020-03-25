@@ -25,9 +25,9 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
-    <ClCompile Include="moduleA\sample2_unittest.cpp" />
+    <ClCompile Include="moduleA\CoolClass_unittest.cpp" />
     <ClCompile Include="test.cpp" />
-    <ClCompile Include="moduleA\sample1_unittest.cpp" />
+    <ClCompile Include="moduleA\arithm_unittest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\to_test\to_test.vcxproj">

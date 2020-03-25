@@ -1,4 +1,4 @@
-#include "moduleA/sample1.h"
+#include "moduleA/arithm.h"
 
 int add(int a, int b)
 {

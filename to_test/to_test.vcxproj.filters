@@ -18,18 +18,18 @@
     <ClCompile Include="src\application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\moduleA\sample1.cpp">
+    <ClCompile Include="src\moduleA\arithm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\moduleA\sample2.cpp">
+    <ClCompile Include="src\moduleA\CoolClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\moduleA\sample1.h">
+    <ClInclude Include="include\moduleA\arithm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\moduleA\sample2.h">
+    <ClInclude Include="include\moduleA\CoolClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

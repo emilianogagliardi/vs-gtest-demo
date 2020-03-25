@@ -1,4 +1,4 @@
-#include "moduleA/sample1.h"
+#include "moduleA/arithm.h"
 #include <gtest/gtest.h>
 
 TEST(add, zero)

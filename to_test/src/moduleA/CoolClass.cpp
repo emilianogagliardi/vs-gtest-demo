@@ -1,5 +1,5 @@
-#include "moduleA/sample1.h"
-#include "moduleA/sample2.h"
+#include "moduleA/arithm.h"
+#include "moduleA/CoolClass.h"
 
 bool operator==(const CoolClass& l, const CoolClass& r)
 {
