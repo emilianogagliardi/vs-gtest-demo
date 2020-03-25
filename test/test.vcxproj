@@ -25,7 +25,8 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="moduleA\sample2_unittest.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="moduleA\sample1_unittest.cpp" />
   </ItemGroup>
   <ItemGroup>

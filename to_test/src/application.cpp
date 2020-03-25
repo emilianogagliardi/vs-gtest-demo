@@ -4,6 +4,6 @@ int main()
 {
     // Do something cool
     CoolClass c(1);
-    c.incStatus();
-    c.decStatus();
+    c.inc();
+    c.dec();
 }
