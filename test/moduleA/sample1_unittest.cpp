@@ -12,6 +12,7 @@ TEST(add, positive)
     ASSERT_EQ(add(2, 2), 4);
     ASSERT_EQ(add(2, 3), 5);
 }
+
 TEST(add, negative)
 {
     ASSERT_EQ(add(1, -2), -1);
