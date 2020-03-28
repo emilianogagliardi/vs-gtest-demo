@@ -24,6 +24,9 @@
     <ClCompile Include="src\moduleA\CoolClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="include\moduleB\Stack.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\moduleA\arithm.h">
