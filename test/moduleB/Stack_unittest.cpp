@@ -2,7 +2,7 @@
 #include <gtest/gtest.h>
 #include <deque>
 
-class StackSimpleTest : public testing::Test {
+class StackTest : public testing::Test {
 protected:
 
     // Called before each test run
@@ -17,7 +17,7 @@ protected:
     Stack<double, std::deque> stackDeqDouble;
 };
 
-TEST_F(StackSimpleTest, DefaultCtor)
+TEST_F(StackTest, DefaultCtor)
 {
     ASSERT_EQ(emptyStackVec.size(), 0);
     ASSERT_EQ(emptyStackDeq.size(), 0);
@@ -25,7 +25,7 @@ TEST_F(StackSimpleTest, DefaultCtor)
     ASSERT_TRUE(emptyStackDeq.empty());
 }
 
-TEST_F(StackSimpleTest, top)
+TEST_F(StackTest, top)
 {
     ASSERT_EQ(stackVecString.top(), "te");
     ASSERT_EQ(stackDeqDouble.top(), 3);
@@ -35,7 +35,7 @@ TEST_F(StackSimpleTest, top)
     ASSERT_EQ(stackDeqDouble.top(), 1.0);
 }
 
-TEST_F(StackSimpleTest, pop)
+TEST_F(StackTest, pop)
 {
     stackDeqDouble.pop();
     ASSERT_EQ(stackDeqDouble.top(), 2);
@@ -48,19 +48,19 @@ TEST_F(StackSimpleTest, pop)
     ASSERT_EQ(stackVecString.top(), "ciao");
 }
 
-TEST_F(StackSimpleTest, popEmpty)
+TEST_F(StackTest, popEmpty)
 {
     ASSERT_THROW(emptyStackDeq.pop(), std::out_of_range);
     ASSERT_THROW(emptyStackVec.pop(), std::out_of_range);
 }
 
-TEST_F(StackSimpleTest, topEmpty)
+TEST_F(StackTest, topEmpty)
 {
     ASSERT_THROW(emptyStackDeq.top(), std::out_of_range);
     ASSERT_THROW(emptyStackVec.top(), std::out_of_range);
 }
 
-TEST_F(StackSimpleTest, push)
+TEST_F(StackTest, push)
 {
     emptyStackDeq.push(1.0);
     ASSERT_EQ(emptyStackDeq.size(), 1);

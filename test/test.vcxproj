@@ -26,7 +26,8 @@
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
     <ClCompile Include="moduleA\CoolClass_unittest.cpp" />
-    <ClCompile Include="moduleB\StackSimple_unittest.cpp" />
+    <ClCompile Include="moduleB\inheritance_example_unittest.cpp" />
+    <ClCompile Include="moduleB\Stack_unittest.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="moduleA\arithm_unittest.cpp" />
   </ItemGroup>

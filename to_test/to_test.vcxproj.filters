@@ -35,5 +35,8 @@
     <ClInclude Include="include\moduleA\CoolClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\moduleB\inheritance_example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
