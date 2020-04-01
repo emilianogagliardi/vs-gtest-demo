@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "moduleB/inheritance_example.h"
+#include "moduleB/Counter.h"
 
 template<typename T> 
 class CounterTest : public testing::Test {
