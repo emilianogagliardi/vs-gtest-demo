@@ -113,7 +113,8 @@
   <ItemGroup>
     <ClInclude Include="include\moduleA\arithm.h" />
     <ClInclude Include="include\moduleA\CoolClass.h" />
-    <ClInclude Include="include\moduleB\inheritance_example.h" />
+    <ClInclude Include="include\moduleB\Counter.h" />
+    <ClInclude Include="include\moduleC\simple_mock_example.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

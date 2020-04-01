@@ -35,7 +35,10 @@
     <ClInclude Include="include\moduleA\CoolClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\moduleB\inheritance_example.h">
+    <ClInclude Include="include\moduleB\Counter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\moduleC\simple_mock_example.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
