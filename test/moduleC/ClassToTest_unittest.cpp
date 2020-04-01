@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "moduleC/simple_mock_example.h"
+#include "../../to_test/include/moduleC/simple_mock_example.h"
 #include "InterfaceMock.h"
 
 // test for the ClassToTest class with mocked dependency
@@ -13,9 +13,7 @@ protected:
         c(&iMock) 
         // note: iMock ctor is called first because of 
         // order of attributs declaration in class
-    {
-
-    }
+    {}
 
     InterfaceMock iMock;
     ClassToTest c;

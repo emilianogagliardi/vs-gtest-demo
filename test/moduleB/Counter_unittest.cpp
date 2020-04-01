@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
-#include "moduleB/Counter.h"
-
+#include "../../to_test/include/moduleB/Counter.h"
+    
 template<typename T> 
 class CounterTest : public testing::Test {
 protected:

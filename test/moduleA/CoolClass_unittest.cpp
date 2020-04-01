@@ -1,4 +1,4 @@
-#include "moduleA/CoolClass.h"
+#include "../../to_test/include/moduleA/CoolClass.h"
 #include <gtest/gtest.h>
 
 TEST(CoolClass, ctor)

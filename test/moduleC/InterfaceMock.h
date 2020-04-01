@@ -1,7 +1,7 @@
 #pragma once
 
 #include <gmock/gmock.h>
-#include "moduleC/simple_mock_example.h"
+#include "../../to_test/include/moduleC/simple_mock_example.h"
 
 class InterfaceMock : public InterfaceToMock {
 public:

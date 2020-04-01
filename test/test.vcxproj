@@ -29,7 +29,6 @@
     <ClCompile Include="moduleB\Counter_unittest.cpp" />
     <ClCompile Include="moduleB\Stack_unittest.cpp" />
     <ClCompile Include="moduleC\ClassToTest_unittest.cpp" />
-    <ClCompile Include="test.cpp" />
     <ClCompile Include="moduleA\arithm_unittest.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -48,7 +47,7 @@
       <SubSystem>Console</SubSystem>
     </Link>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\to_test\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
   </ItemDefinitionGroup>
